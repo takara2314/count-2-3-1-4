@@ -2,7 +2,7 @@ arr = [2, 3, 1, 4];
 
 // awaitはasync内でしか使えない
 (async (arr) => {
-  for (item of arr) {
+  for (let item of arr) {
     console.log(item);
 
     // 他の言語でいう sleep(time)
